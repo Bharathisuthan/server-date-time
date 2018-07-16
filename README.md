@@ -2,7 +2,8 @@
 Server Date Time
 
 ### serverDate.js
-` var xmlHttp;
+```
+var xmlHttp;
 function srvTime(){
 	try {
 		//FF, Opera, Safari, Chrome
@@ -30,11 +31,13 @@ function srvTime(){
 }
 
 var st = srvTime();
-var date = new Date(st);`
+var date = new Date(st);
+```
 
 
 ### index.html
-`<html>
+```
+<html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Server date/time</title>
@@ -47,4 +50,5 @@ document.write("Server time is: " + date);
 </script>
 <body>
 </body>
-</html>`
+</html>
+```
